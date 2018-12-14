@@ -1,0 +1,276 @@
+body {
+	margin: 0 auto;
+	font-family: Calibri;
+ 	overflow-x: hidden;
+}
+
+header {
+	width: 100%;
+	min-height: 42px;
+	background-color: #3b5998;
+	background-image: linear-gradient(#4e69a2, #3b5998 50%);
+	border-bottom: 1px solid #133783;
+	z-index: 1;
+	position: absolute;
+}
+
+a {
+	text-decoration: none;
+}
+
+header h1 a {
+	color: #ffffff;
+}
+header h1 {
+  position: relative;
+  left: 15%;
+  top: 7px;
+}
+
+header form {
+	position: absolute;
+	right: 9%;
+	bottom: 30%;
+}
+
+header form label {
+	color: #ffffff;
+	position: relative;
+	bottom: 18px;
+}
+
+header form label[for="email"] {
+	left: 15.0%;
+}
+
+header form label[for="password"] {
+	left: 10.5%;
+}
+
+header form input {
+	position: relative;
+}
+
+.email-user {
+	left: 8.7%;
+}
+
+.login {
+  margin-left: 5px;
+ 	background-color: #3D5FA8;
+ 	color: #ffffff;
+ 	border: 1px solid #274172;
+ 	cursor: pointer;
+}
+
+.login:active {
+ 	background-color: #324e8b;
+}
+
+.forgot {
+	position: relative;
+  color: #7CADD2;
+  text-decoration: none;
+  right: 38%;
+  top: 22px;
+}
+
+main {
+	width: 100%;
+	background-color: #EBEEF3;
+	min-height: 545px;
+	position: absolute;
+	top: 82px;
+}
+
+.left-side {
+	width: 50%;
+	position: absolute;
+	padding: 1px;
+}
+
+.left-side-headertext {
+	position: relative;
+	font-size: 28px;
+	line-height: 36px;
+	top: 37px;
+	left: 29%;
+}
+
+.left-side img {
+  max-width: 56px;
+  height: 56px;
+  position: relative;
+  left: 28%;
+  top: 50px;
+}
+
+.left-side p {
+  position: relative;
+  font-size: 18px;
+  bottom: 9px;
+  left: 38%;
+}
+
+.left-side span {
+  font-weight: bold;
+}
+
+.first-row img {
+  top: 55px;
+}
+
+.second-row img {
+  top: 10px;
+}
+
+.second-row p {
+  bottom: 60px;
+}
+
+.third-row img {
+  top: -40px;
+}
+
+.third-row p {
+  bottom: 110px;
+}
+
+.right-side {
+	width: 50%;
+	position: absolute;
+	padding: 1px;
+	left: 50%;
+}
+
+.right-side h2 {
+	position: relative;
+  font-size: 38px;
+  left: 25%;
+  bottom: 15px;
+}
+
+.right-side h4 {
+	position: relative;
+	font-weight: 400;
+  font-size: 20px;
+  left: 25%;
+  bottom: 45px;
+}
+
+.registration form {
+	position: absolute;
+}
+
+.registration input {
+	position: relative;
+  font-size: 19px;
+  padding-left: 10px;
+  border: 1px solid #B6C1D3;
+  border-radius: 5px;
+  left: 25%;
+}
+
+.name {
+  width: 193px;
+  height: 40px;
+  bottom: 50px;
+}
+
+.email {
+  width: 404px;
+  height: 40px;
+  bottom: 40px;
+}
+
+.newpassword {
+  width: 404px;
+  height: 40px;
+  bottom: 30px;
+}
+
+select {
+  position: relative;
+  font-size: 14px;
+  height: 30px;
+  padding: 5px;
+  border: 1px solid #B6C1D3;
+  left: 25%;
+  bottom: 52px;
+}
+
+.birthday {
+  position: relative;
+  font-size: 22px;
+  left: 25%;
+  bottom: 35px;
+}
+
+.right-side a{
+	position: relative;
+  color: #365899;
+  font-size: 13px;
+}
+
+.input-left-text {
+	left: 26%;
+  bottom: 53px;
+}
+
+label[for="male"] {
+  position: absolute;
+  font-size: 21px;
+  left: 37%;
+  bottom: 10px;
+}
+
+label[for="female"] {
+  position: absolute;
+  font-size: 21px;
+  left: 24.6%;
+  bottom: 10px;
+}
+
+input[name="sex"] {
+  position: relative;
+  left: 0;
+}
+
+.under-text {
+	position: absolute;
+	font-size: 14px;
+  color: #636363;
+  left: 25%;
+  top: 97%;
+}
+
+.under-text a {
+	font-size: 15px;
+}
+
+.signup-submit {
+  width: 195px;
+  height: 40px;
+  background: linear-gradient(#67ee55, #578843);
+  background-color: #69a74e;
+  border: 1px solid;
+  box-shadow: inset 0 1px 1px #a4e388;
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  text-shadow: 0 1px 2px rgba(0, 0, 0,.5) ;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 19px;
+  cursor: pointer;
+  position: absolute;
+  left: 25%;
+  top: 460px;
+  transition: 0.1s;
+}
+
+.signup-submit:hover {
+	background: linear-gradient(#9EFF8C, #578843);
+}
+
+.signup-submit:active {
+	top: 461px;
+}
